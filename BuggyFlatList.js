@@ -1,0 +1,1 @@
+This bug occurs when using the FlatList component in React Native with a large dataset and a custom item separator.  The separator might not render correctly or might be misaligned, leading to visual inconsistencies or rendering errors. This is often due to improper handling of the `ItemSeparatorComponent` prop or incorrect measurement calculations within the custom separator.
